@@ -1,0 +1,2507 @@
+fileFormatVersion: 2
+guid: f00af11324dea9142ae7dd40469736ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a885587d96324b94059eabacee617
+      internalID: -678612394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e334b7749d5e614f8f02979d92b0744
+      internalID: 989905246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85fe03e6bcda14b83df3fbfe80ae4f
+      internalID: -1884486875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d7afa74f8737449ffa48856818822
+      internalID: -751803112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a329ecd3e12864c876c516d048d4d6
+      internalID: -1759276218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b65522b37d0d140b1069eb05793eab
+      internalID: 1079622919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21df5ec2d8d2794083bec23cd0dcc72
+      internalID: -1544824510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 148.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c2416f98be2f04b8adce0299e7ed15
+      internalID: -756726483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc029dd120f0e24db3acd16383fdbff
+      internalID: 517290958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0c439aac497f744a26a570dbf62ebb
+      internalID: 957917765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555dcdb15aff491408f5d9980f199d8d
+      internalID: -668555804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e457360ec846cca449bdd44351ac1556
+      internalID: 1877332091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d085c14c53ed7364bb3abf3d3b94024f
+      internalID: 2052555480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d6292d04193a249a3c6cafe45399c0
+      internalID: 722928323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0c9e27093b3c4a87fd71c0d6a100b
+      internalID: -333207429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 137.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868256a7930b6284eb6b4ddfa52b73fc
+      internalID: -86894723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf5a8e8e721e7c4c92d5b3e5e7118eb
+      internalID: 1554243646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba2a949d3c051344989de6e6030760d
+      internalID: -515243041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c7ba82d6456f24bb8edbe1175e55bc
+      internalID: -545780653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5374c2c8d48dd5d4588676dcb722fdba
+      internalID: -1210982706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2880867b3ecb37438c57ce33168c666
+      internalID: -1523651128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079ced50d6e9760408dc83bd88a77de7
+      internalID: 1563722221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34081ea845e20514e9b107856ea33803
+      internalID: -1639706605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 126.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2250f25bd24ff44b5e88a9262c8e8b
+      internalID: 743386587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cc0c712cab85d4fa76ac6a677fbb44
+      internalID: -1587038835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6b3b822f55c64c9be0f3754a57f87
+      internalID: 2035645346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b391a96b6ce165c43ba8db5587a4c553
+      internalID: 465088806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b566ba50c706174e89137e5a5e8c176
+      internalID: -2040892303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6e0de32e0e2d41b59d32392269c45
+      internalID: 564569403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5f8106d3e528943b23014b58f27a1c
+      internalID: 547451209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0f62eb18b0c54b835afa77bbfe4b6
+      internalID: 1114844845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 115.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f360ff842b9e46bb613be3bcd9c10
+      internalID: 1209002482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd29b5c91563bfe44b58011af198fbb1
+      internalID: -77499575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe13d286d9691349b56b0122861fb5e
+      internalID: -2121835462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c598405a634b0404a8d04a5c720d0a69
+      internalID: -1498907553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ad5472f26800c468407d2b9b59ed93
+      internalID: -137938752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87450b4fe5cdab04883114fb237f83df
+      internalID: -561590916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfbfe7a2eda9184ea1546f7781b120d
+      internalID: 1526019066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8854e5ef1c75104ca35581537076f43
+      internalID: 874437619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598d8bacd4c18e4a8256fc50ea162b0
+      internalID: 1871832126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222a78a36bf6794fbd09d37d7a118b0
+      internalID: -772321393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb1d46635d7384895bb818adf4d728
+      internalID: -803216594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1b42957e1cb1b4c87763ea41c5a182
+      internalID: -443699319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069dad6fde4f35e4fa9a4ab8dbc0c7de
+      internalID: 2104262515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329bfb37d72351b4c89b8f258b96b77f
+      internalID: -373635106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d80c917044e044e801e3bbaef57f4d
+      internalID: 1258251069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb3305c746f7e449876233cac9dd6b9
+      internalID: 1022328649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0cadcf7a7c436449849b7ce30157d0
+      internalID: 461304137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 82.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc4136bdbb2af47bf024950956869f
+      internalID: -669685135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5450feb3897d65c41aff29b42deb1b1c
+      internalID: 201336390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 82.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907ff53640dbeb46bb8889743c6452f
+      internalID: 1134852424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 82.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1c10457ad4261419cfc2bba9a571ab
+      internalID: 1870662301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 82.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff652e406e8520409287e14cea12ef4
+      internalID: -1552877069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f663f5f0f6c019045914bef3c5c870c0
+      internalID: 170813289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f760173824a7af44bb7bba156f7985e9
+      internalID: -31970312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1489154e495e58498011fd426110591
+      internalID: -1230362842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77f9118efbda9e44b2d84fd6a166a37
+      internalID: 945390848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d413d05164150aa43b80041d6b294d20
+      internalID: 1156103078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9f9a149d2dfec47b1e728ddf631740
+      internalID: -280695842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8cf4bfcb4bef49b8d45b19af29e05
+      internalID: -1539306386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 71.57143
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f4f34e434188844b3abfad640b352d
+      internalID: -1948684233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a92863d86bd2154db3df0720c310c59
+      internalID: 1117624185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee60b3e3340ed94790b213824002d03
+      internalID: -906601373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1efa7ecfa952d4f9c58b1adb24daba
+      internalID: 1192948667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffcbcb889b971b41991bb5bfd796f5e
+      internalID: 1501723674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38c6548a8dff64c9f581a6ceeebc0f
+      internalID: 609082833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b3eb6d9f26aec4f863f54314ccf530
+      internalID: 540200123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f15385d1ad5ca4ba26c52f26e1e7f2
+      internalID: 617003388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 60.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e854e44af645b74a88434b7d8b2b1b0
+      internalID: -2126284555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e502eab5a7a8274f8fbb37ed4bde4f0
+      internalID: 2037239096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c3c43a27e5cca49950fc48c3547d17
+      internalID: -353890683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b8d7d759f2654aa79760a0e11b815
+      internalID: 1792322835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70569590f1e9444a9147b6f883c901b
+      internalID: -2142183748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37a27b4074172347ba705d65edef6fb
+      internalID: 2025119408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542d2b4b6d24bd944b92d72ba52e994d
+      internalID: 1122260105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c347388d5c31b4d891adccd3cad1d7
+      internalID: -1051397654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 49.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e73b6b5750a25e4e8e718938d0be393
+      internalID: -701802786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff69f2445053ef4184ec0f2a3906d13
+      internalID: 1908305492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f311e24e608314a9e1b02d0443dea1
+      internalID: 1013855257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ca188deb222c5439c468d4cc2b004e
+      internalID: 839561082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8fef65d303514fa3f00d4395851d5
+      internalID: 715452216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331851a0a3e4f2b4b9a0e5de7753c7e5
+      internalID: -1915628195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bfcb3b7da0cf145b64a3ff351c4689
+      internalID: -263729623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cfdbe17ba745e40bb7d9a122f08a26
+      internalID: 518421268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 38.571426
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91d999fce217694c83105584331f285
+      internalID: 1392168525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454cf9ca48f24f40a19d9bbe956f768
+      internalID: -126055600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad55ce533109a2848b2297fa390372f1
+      internalID: 1855911074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e12e6791f66af40a9ee876e548f5bc
+      internalID: 1205918600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4675488e5957c45b53be6f340360ee
+      internalID: -988910507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb23209729476e64f9f81127461805cb
+      internalID: 1792425722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff04fdab9af694d4995e3b6aecda644a
+      internalID: 1929384769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_91
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5f39984f13a8c4d934974c91e1a873
+      internalID: -1837846501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_92
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5104594ff085ebe4da8f2d28216a3cbf
+      internalID: 2002885693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c964b07ed164e418929cb819541ff6
+      internalID: -580420645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_94
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da923568094cd449314b67b1a0964f
+      internalID: -483928659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_95
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db2156ff510c904d85b9e9631c571e7
+      internalID: 814862188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_96
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c46a63c03fc249a76ef07dd030956
+      internalID: -1023739653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a351bfca1655a94abb2cd8c11369ea1
+      internalID: -955722826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6657f53e1da9d444a3a2c8577dc9f59
+      internalID: 1434618027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_99
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c15c58cd715f6c41ab7a8e39223030f
+      internalID: 425453977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16.571428
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceee8f5b52073eb43acc6a99532baff0
+      internalID: -1933894693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_101
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2b48eaffcf28b44bd9e9f16001f26f
+      internalID: 557338950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_102
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb4aad605a343f42bdd086154f61bd0
+      internalID: 1408561286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_103
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9960648b761414a99317d221f05279
+      internalID: -1863236806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_104
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1019a162c30f084f9bcc99972ed0f9a
+      internalID: -1673596663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_105
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51db7d38a0deec347b41bf61c96703c3
+      internalID: -1435635372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Tiles_106
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 5.5714283
+        width: 22
+        height: 11.428572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd397e7ec93d57540bff8bc153cb6dc8
+      internalID: 1940957474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ground_Tiles_0: -678612394
+      Ground_Tiles_1: 989905246
+      Ground_Tiles_10: -668555804
+      Ground_Tiles_100: -1933894693
+      Ground_Tiles_101: 557338950
+      Ground_Tiles_102: 1408561286
+      Ground_Tiles_103: -1863236806
+      Ground_Tiles_104: -1673596663
+      Ground_Tiles_105: -1435635372
+      Ground_Tiles_106: 1940957474
+      Ground_Tiles_11: 1877332091
+      Ground_Tiles_12: 2052555480
+      Ground_Tiles_13: 722928323
+      Ground_Tiles_14: -333207429
+      Ground_Tiles_15: -86894723
+      Ground_Tiles_16: 1554243646
+      Ground_Tiles_17: -515243041
+      Ground_Tiles_18: -545780653
+      Ground_Tiles_19: -1210982706
+      Ground_Tiles_2: -1884486875
+      Ground_Tiles_20: -1523651128
+      Ground_Tiles_21: 1563722221
+      Ground_Tiles_22: -1639706605
+      Ground_Tiles_23: 743386587
+      Ground_Tiles_24: -1587038835
+      Ground_Tiles_25: 2035645346
+      Ground_Tiles_26: 465088806
+      Ground_Tiles_27: -2040892303
+      Ground_Tiles_28: 564569403
+      Ground_Tiles_29: 547451209
+      Ground_Tiles_3: -751803112
+      Ground_Tiles_30: 1114844845
+      Ground_Tiles_31: 1209002482
+      Ground_Tiles_32: -77499575
+      Ground_Tiles_33: -2121835462
+      Ground_Tiles_34: -1498907553
+      Ground_Tiles_35: -137938752
+      Ground_Tiles_36: -561590916
+      Ground_Tiles_37: 1526019066
+      Ground_Tiles_38: 874437619
+      Ground_Tiles_39: 1871832126
+      Ground_Tiles_4: -1759276218
+      Ground_Tiles_40: -772321393
+      Ground_Tiles_41: -803216594
+      Ground_Tiles_42: -443699319
+      Ground_Tiles_43: 2104262515
+      Ground_Tiles_44: -373635106
+      Ground_Tiles_45: 1258251069
+      Ground_Tiles_46: 1022328649
+      Ground_Tiles_47: 461304137
+      Ground_Tiles_48: -669685135
+      Ground_Tiles_49: 201336390
+      Ground_Tiles_5: 1079622919
+      Ground_Tiles_50: 1134852424
+      Ground_Tiles_51: 1870662301
+      Ground_Tiles_52: -1552877069
+      Ground_Tiles_53: 170813289
+      Ground_Tiles_54: -31970312
+      Ground_Tiles_55: -1230362842
+      Ground_Tiles_56: 945390848
+      Ground_Tiles_57: 1156103078
+      Ground_Tiles_58: -280695842
+      Ground_Tiles_59: -1539306386
+      Ground_Tiles_6: -1544824510
+      Ground_Tiles_60: -1948684233
+      Ground_Tiles_61: 1117624185
+      Ground_Tiles_62: -906601373
+      Ground_Tiles_63: 1192948667
+      Ground_Tiles_64: 1501723674
+      Ground_Tiles_65: 609082833
+      Ground_Tiles_66: 540200123
+      Ground_Tiles_67: 617003388
+      Ground_Tiles_68: -2126284555
+      Ground_Tiles_69: 2037239096
+      Ground_Tiles_7: -756726483
+      Ground_Tiles_70: -353890683
+      Ground_Tiles_71: 1792322835
+      Ground_Tiles_72: -2142183748
+      Ground_Tiles_73: 2025119408
+      Ground_Tiles_74: 1122260105
+      Ground_Tiles_75: -1051397654
+      Ground_Tiles_76: -701802786
+      Ground_Tiles_77: 1908305492
+      Ground_Tiles_78: 1013855257
+      Ground_Tiles_79: 839561082
+      Ground_Tiles_8: 517290958
+      Ground_Tiles_80: 715452216
+      Ground_Tiles_81: -1915628195
+      Ground_Tiles_82: -263729623
+      Ground_Tiles_83: 518421268
+      Ground_Tiles_84: 1392168525
+      Ground_Tiles_85: -126055600
+      Ground_Tiles_86: 1855911074
+      Ground_Tiles_87: 1205918600
+      Ground_Tiles_88: -988910507
+      Ground_Tiles_89: 1792425722
+      Ground_Tiles_9: 957917765
+      Ground_Tiles_90: 1929384769
+      Ground_Tiles_91: -1837846501
+      Ground_Tiles_92: 2002885693
+      Ground_Tiles_93: -580420645
+      Ground_Tiles_94: -483928659
+      Ground_Tiles_95: 814862188
+      Ground_Tiles_96: -1023739653
+      Ground_Tiles_97: -955722826
+      Ground_Tiles_98: 1434618027
+      Ground_Tiles_99: 425453977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
