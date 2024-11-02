@@ -30,6 +30,7 @@ public class GooRise : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log("kill player");
             GameManager.Instance.GameOver(); // Trigger game over on collision
         }
     }

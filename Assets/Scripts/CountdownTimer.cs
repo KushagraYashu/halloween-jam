@@ -25,8 +25,10 @@ public class CountdownTimer : MonoBehaviour
         yield return new WaitForSeconds(countdownTime);
 
         countdownText.text = "GO!";
+        GameManager.Instance.player.GetComponent<PlayerController>().enabled = true;
         yield return new WaitForSeconds(countdownTime);
 
         countdownText.text = ""; // Clear the text after "GO!"
+        
     }
 }

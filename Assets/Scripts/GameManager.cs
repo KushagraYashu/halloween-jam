@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public TextMeshProUGUI scoreText;
     public int playerScore;
+    public GameObject player;
 
     private void Awake()
     {
@@ -29,7 +30,9 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
+        Debug.Log("gameover called");
         scoreText.text = "Final Score: " + playerScore;
+        player.GetComponent<PlayerController>().enabled = false;
         // Add any additional code for stopping player control or pausing the game here.
     }
 }
