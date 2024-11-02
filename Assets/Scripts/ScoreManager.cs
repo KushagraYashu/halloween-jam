@@ -6,8 +6,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI scoreText; // Reference to the TextMeshProUGUI component
     public float score; // The player's current score
     public float scoreIncreaseRate = 0.1f; // Rate at which score increases per second
-    public float candyScoreValue = 10f; // Score value for picking up a candy
-    private bool isGameActive = true; // To control when the score is updating
+    private bool isGameActive = false; // To control when the score is updating
 
     void Start()
     {
@@ -25,14 +24,15 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void AddScoreForCandy()
+    public void AddScoreForCandy(int candyScore)
     {
         // Increase score by candy score value
-        score += candyScoreValue;
+        score += candyScore;
     }
 
     public void SetGameActive(bool active)
     {
         isGameActive = active;
     }
+
 }

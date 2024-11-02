@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int playerScore;
     public GameObject player;
+    public ScoreManager scoreManager;
 
     private void Awake()
     {
