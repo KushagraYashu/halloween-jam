@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialRiseSpeed: 0.1
-  riseAcceleration: 0.05
+  riseAcceleration: 0.1
   maxRiseSpeed: 5
   waveFrequency: 1
   waveAmplitude: 0.5
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.75
+  m_DeadZoneWidth: 0.742
   m_DeadZoneHeight: 0.776
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 1
@@ -8062,6 +8062,7 @@ GameObject:
   - component: {fileID: 1260128934}
   - component: {fileID: 1260128935}
   - component: {fileID: 1260128936}
+  - component: {fileID: 1260128937}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Batman
@@ -8110,12 +8111,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 933378948b1a6554b9dafab585ebb6a1, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.44, y: 0.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -8182,18 +8183,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.05}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.1, y: 1.1}
+    newSize: {x: 0.44, y: 0.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.81, y: 0.48}
   m_EdgeRadius: 0
 --- !u!114 &1260128936
 MonoBehaviour:
@@ -8207,6 +8208,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e7212880325804b835a172858bc61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1260128937
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260128931}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be178c5b21f88d146b9e2f0b954e5b1a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1432621078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9932,7 +9954,7 @@ Transform:
   m_GameObject: {fileID: 1624170420}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.77, y: -2.78, z: 12.86}
+  m_LocalPosition: {x: -3.77, y: -0.55, z: 12.86}
   m_LocalScale: {x: 20, y: 20, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10236,6 +10258,8 @@ MonoBehaviour:
   - {fileID: 3148809389161233401, guid: ec09988869782c846bbeb765d77464df, type: 3}
   - {fileID: 3148809389161233401, guid: fd760f2d46d14df4aabdafee646eb383, type: 3}
   - {fileID: 3148809389161233401, guid: e2ff8081512208f46b639a2fcfeb437b, type: 3}
+  - {fileID: 3148809389161233401, guid: 89114330eaab81c47a7394a9e06dbd61, type: 3}
+  - {fileID: 3148809389161233401, guid: 94bfa65a1fcc21b469235686c3821563, type: 3}
   levelPartsList: []
 --- !u!4 &1768384910 stripped
 Transform:
