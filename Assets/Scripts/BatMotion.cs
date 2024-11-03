@@ -19,7 +19,7 @@ public class BatMotion : MonoBehaviour
     {
         Vector3 pos = startPos;
         pos.x += distance * Mathf.Sin(Time.time * speed);
-        transform.position = pos;
+        
 
         // Check if direction has changed
         if (facingRight && pos.x < transform.position.x)
@@ -32,6 +32,8 @@ public class BatMotion : MonoBehaviour
             Flip();
             facingRight = true;
         }
+
+        transform.position = pos;
     }
 
     // Flip the sprite
