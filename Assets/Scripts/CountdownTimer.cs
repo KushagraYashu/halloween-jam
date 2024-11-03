@@ -35,6 +35,7 @@ public class CountdownTimer : MonoBehaviour
     public void SetGame()
     {
         GameManager.Instance.player.GetComponent<PlayerController>().enabled = true;
+        GameManager.Instance.goo.SetMotionActive(true);
         GameManager.Instance.scoreManager.SetGameActive(true);
     }
 }

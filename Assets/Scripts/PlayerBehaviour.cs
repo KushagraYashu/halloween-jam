@@ -21,6 +21,8 @@ public class PlayerBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("candy"))
         {
             GameManager.Instance.scoreManager.AddScoreForCandy(collision.gameObject.GetComponent<CandyClass>().scoreValue);
+            GameManager.Instance.candySoundGO.GetComponent<AudioSource>().clip = collision.gameObject.GetComponent<AudioSource>().clip;
+            GameManager.Instance.candySoundGO.GetComponent<AudioSource>().Play();
             Destroy(collision.gameObject);
         }
     }

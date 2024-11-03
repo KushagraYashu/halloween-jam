@@ -11,6 +11,8 @@ public class GooRise : MonoBehaviour
     private float currentRiseSpeed;
     private float elapsedTime;
 
+    public bool active = false;
+
     private void Start()
     {
         currentRiseSpeed = initialRiseSpeed;
@@ -19,11 +21,14 @@ public class GooRise : MonoBehaviour
 
     private void Update()
     {
-        currentRiseSpeed = Mathf.Min(currentRiseSpeed + riseAcceleration * Time.deltaTime, maxRiseSpeed);
-        float newYPosition = transform.position.y + currentRiseSpeed * Time.deltaTime;
-        float newXPosition = Mathf.Sin(elapsedTime * waveFrequency) * waveAmplitude;
-        transform.position = new Vector3(newXPosition, newYPosition, transform.position.z);
-        elapsedTime += Time.deltaTime;
+        if (active)
+        {
+            currentRiseSpeed = Mathf.Min(currentRiseSpeed + riseAcceleration * Time.deltaTime, maxRiseSpeed);
+            float newYPosition = transform.position.y + currentRiseSpeed * Time.deltaTime;
+            float newXPosition = Mathf.Sin(elapsedTime * waveFrequency) * waveAmplitude;
+            transform.position = new Vector3(newXPosition, newYPosition, transform.position.z);
+            elapsedTime += Time.deltaTime;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,5 +38,10 @@ public class GooRise : MonoBehaviour
             Debug.Log("kill player");
             GameManager.Instance.GameOver(); // Trigger game over on collision
         }
+    }
+
+    public void SetMotionActive(bool act)
+    {
+        active = act;
     }
 }
