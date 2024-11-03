@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int playerScore;
     public GameObject player;
+    public GameObject playerSprite;
     public GameObject candySoundGO;
     public ScoreManager scoreManager;
     public GooRise goo;
@@ -35,8 +36,10 @@ public class GameManager : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
         Debug.Log("gameover called");
-        scoreText.text = "Final Score: " + (int)scoreManager.score;
+        scoreText.text = "Final Score: " + (int)scoreManager.bestScore;
+        scoreManager.SetGameActive(false);
         player.GetComponent<PlayerController>().enabled = false;
+        playerSprite.SetActive(false);
         audioManager.loopAudioSource.Stop();
         player.GetComponent<AudioSource>().Play();
         // Add any additional code for stopping player control or pausing the game here.

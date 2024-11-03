@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, groundLayer);
 
         // Only allow jumping if the character is grounded
-        if (isGrounded && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        if (isGrounded && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Apply upward force for jump
         }

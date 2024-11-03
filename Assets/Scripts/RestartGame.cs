@@ -31,6 +31,7 @@ public class RestartGame : MonoBehaviour
         // Get the active scene and reload it
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
+        
 
         // Start the fade out (optional)
         yield return StartCoroutine(FadeTo(0f, 1f)); // Fade back to transparent over 1 second

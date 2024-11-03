@@ -4,9 +4,18 @@ using TMPro; // Include TextMeshPro namespace
 public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText; // Reference to the TextMeshProUGUI component
+    public TextMeshProUGUI bestScoreText; // Reference to the TextMeshProUGUI component
     public float score; // The player's current score
     public float scoreIncreaseRate = 0.1f; // Rate at which score increases per second
     private bool isGameActive = false; // To control when the score is updating
+    public static int lastBestScore;
+    public int bestScore;
+
+    private void Awake()
+    {
+        bestScore = lastBestScore;
+        bestScoreText.text = "Best Score: " + Mathf.FloorToInt(bestScore).ToString();
+    }
 
     void Start()
     {
@@ -20,6 +29,11 @@ public class ScoreManager : MonoBehaviour
         if (isGameActive)
         {
             score += scoreIncreaseRate * Time.deltaTime;
+            if ((int)score > bestScore) {
+                bestScore = (int)score;
+                lastBestScore = bestScore;
+                bestScoreText.text = "Best Score: " + Mathf.FloorToInt(bestScore).ToString();
+            }
             scoreText.text = "Score: " + Mathf.FloorToInt(score).ToString();
         }
     }
@@ -28,6 +42,12 @@ public class ScoreManager : MonoBehaviour
     {
         // Increase score by candy score value
         score += candyScore;
+        if ((int)score > bestScore)
+        {
+            bestScore = (int)score;
+            lastBestScore = bestScore;
+            bestScoreText.text = "Best Score: " + Mathf.FloorToInt(bestScore).ToString();
+        }
     }
 
     public void SetGameActive(bool active)
