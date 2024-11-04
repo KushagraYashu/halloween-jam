@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
         Debug.Log("gameover called");
-        scoreText.text = "Final Score: " + (int)scoreManager.bestScore;
+        scoreText.text = "Final Score: " + (int)scoreManager.score;
         scoreManager.SetGameActive(false);
         player.GetComponent<PlayerController>().enabled = false;
         player.GetComponent<SpriteRenderer>().enabled = false;
