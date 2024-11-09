@@ -39,6 +39,8 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Final Score: " + (int)scoreManager.score;
         scoreManager.SetGameActive(false);
         player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponent<CapsuleCollider2D>().enabled = false;
+        player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         player.GetComponent<SpriteRenderer>().enabled = false;
         playerSprite.SetActive(false);
         audioManager.loopAudioSource.Stop();
